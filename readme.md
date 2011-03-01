@@ -8,6 +8,7 @@ What it Does
 Often when I'm developing a WordPress site, I need to restore the database to a previous state to repeat a test or fix a bug.  
 
 For example, say I'm testing a user-registration process.
+
  * First, I'll dump the database to an sql file.
  * Then I run my tests, create the new user, etc.
  * To reset the database to the state before this action, I call the reset script:
